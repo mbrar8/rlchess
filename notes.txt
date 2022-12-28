@@ -1,0 +1,32 @@
+RL Chess Approaches:
+
+
+AlphaZero Approach:
+
+-All possible sequences of actions is represented as a tree
+-Can't follow and evaluate the entire tree, so monte carlo tree search (search subset of actions)
+-Use DCNN to look at board and learn what best subset of actions to examine from having seen it before
+-AlphaZero learns on its own. DCNN trains on games it plays by itself?
+
+  Variations:
+      -Train DCNN on existing gameplay (someone's games or perhaps train with stockfish evaluations)
+
+
+
+Other Approach:
+-Found approach that trains NN to choose the move from 3 different sources: stockfish, LSTM trained to predict moves from chess string, moves from human memory
+
+
+
+Other Ideas In General:
+-Just the LSTM part (string prediction)
+-I wonder if GPT-3 can be applied to this?
+
+-LSTM with MCTS instead of DCNN?
+
+-Don't all these approaches require it to have seen that scenario before? What's to say playing against a total noob won't wreck it? Generally assume optimal enemy plays?
+
+
+
+
+
