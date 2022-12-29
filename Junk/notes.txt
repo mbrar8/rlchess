@@ -22,10 +22,6 @@ Other Ideas In General:
 -Just the LSTM part (string prediction)
 -I wonder if GPT-3 can be applied to this?
 
--LSTM with MCTS instead of DCNN?
-
--Don't all these approaches require it to have seen that scenario before? What's to say playing against a total noob won't wreck it? Generally assume optimal enemy plays?
-
 
 
 
